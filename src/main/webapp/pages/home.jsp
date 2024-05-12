@@ -6,7 +6,8 @@
     <title>Title</title>
 </head>
 <body>
-    Welcome ${name}
+<!--here now we change above because we wanna access the value of the object being passed-->
+    Welcome ${obj.aid}, ${obj.aname}, ${obj.lang}
 </body>
 </html>
 
