@@ -20,6 +20,7 @@ public class HomeController
 //here we want to accept data in an object because we are getting not just one but more data from the client side
         ModelAndView mv = new ModelAndView();
 //        below I am passing a whole object not just a 1 value
+        // below am putting all contents of alien in obj thus I access them contents of alien using obj. in html side/template side
         mv.addObject("obj", alien);
         mv.setViewName("home");
 
